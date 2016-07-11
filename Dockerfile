@@ -58,3 +58,6 @@ RUN R -e 'source("http://bioconductor.org/biocLite.R"); biocLite("edgeR"); biocL
 RUN sudo su - -c "/usr/bin/R -e \"devtools::install_github('hms-dbmi/scde', build_vignettes = FALSE)\""
 
 RUN sudo su - -c "/usr/bin/R -e \"devtools::install_github('satijalab/seurat')\""
+
+
+
